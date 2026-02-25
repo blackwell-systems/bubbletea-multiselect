@@ -14,7 +14,7 @@ A reusable multi-select wrapper for [Bubble Tea](https://github.com/charmbracele
 ## Installation
 
 ```go
-import "github.com/blackwell-systems/bubbletea-components/multiselect"
+import "github.com/blackwell-systems/bubbletea-multiselect"
 ```
 
 ## Usage
@@ -129,7 +129,7 @@ package main
 
 import (
     "fmt"
-    "github.com/blackwell-systems/bubbletea-components/multiselect"
+    "github.com/blackwell-systems/bubbletea-multiselect"
     "github.com/charmbracelet/bubbles/list"
     tea "github.com/charmbracelet/bubbletea"
 )
@@ -252,4 +252,4 @@ type SelectableItem interface {
 
 ## License
 
-See project root for license information.
+MIT License - see [LICENSE](LICENSE) for details.
